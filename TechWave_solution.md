@@ -1,190 +1,122 @@
-Case Study
+# 📄 Case Study — TechWave Solutions
 
-Fictional Company: TechWave Solutions
+## 🏢 Fictional Company Overview
 
-TechWave Solutions est une entreprise canadienne de taille moyenne spécialisée dans les solutions cloud et SaaS pour les petites et moyennes entreprises (PME). L'entreprise dispose de deux sites physiques : son siège social à Montréal et un bureau secondaire à Vancouver. Sa croissance rapide lui a permis d'élargir son portefeuille client à travers le Canada et l'Europe. Face à l'expansion internationale et aux exigences réglementaires croissantes, la direction informatique souhaite mener un audit interne approfondi afin de renforcer sa sécurité informatique et assurer sa conformité réglementaire.
+**TechWave Solutions** est une entreprise canadienne de taille moyenne spécialisée dans les solutions **cloud** et **SaaS** pour les **PME**. Elle dispose de deux sites :
+- Siège social à **Montréal**
+- Bureau secondaire à **Vancouver**
 
-La responsable IT décide de mettre en œuvre le Cadre de cybersécurité du National Institute of Standards and Technology (NIST CSF). Elle définit l'objectif et la portée de l'audit, liste les actifs actuellement gérés par son département et réalise une évaluation préliminaire des risques.
+Grâce à sa croissance rapide, l'entreprise a élargi son portefeuille client à travers le **Canada** et **l'Europe**. Face à cette expansion et aux exigences réglementaires, la direction informatique initie un **audit interne** pour :
+- Renforcer la **sécurité informatique**
+- Assurer la **conformité réglementaire**
 
-Scenario
+La responsable IT adopte le **Cadre de cybersécurité du NIST (NIST CSF)** pour mener cet audit.
 
-Scope
+---
 
-La portée de l'audit couvre l'ensemble du programme de sécurité de TechWave Solutions, incluant les actifs physiques et numériques ainsi que les processus internes et les politiques de conformité.
+## 🔍 Scenario
 
-Goals
+### 📌 Scope
 
-Évaluer les actifs existants et compléter une checklist des contrôles et des pratiques de conformité afin d'identifier les améliorations nécessaires pour renforcer la posture sécuritaire de TechWave Solutions.
+L'audit couvre :
+- L'ensemble du programme de sécurité
+- Les **actifs physiques et numériques**
+- Les **processus internes**
+- Les **politiques de conformité**
 
-Current Assets
+### 🎯 Goals
 
-Infrastructure cloud propriétaire
+- Évaluer les actifs existants
+- Compléter une **checklist de conformité**
+- Identifier les **améliorations nécessaires**
 
-Équipements physiques (serveurs, routeurs, switches)
+---
 
-Postes de travail des employés (ordinateurs portables, smartphones)
+## 💻 Current Assets
 
-Applications SaaS gérées en interne (gestion des clients, facturation, support technique)
+- Infrastructure cloud propriétaire
+- Équipements physiques (serveurs, routeurs, switches)
+- Postes de travail (ordinateurs portables, smartphones)
+- Applications SaaS internes (gestion clients, facturation, support)
+- Réseaux internes
+- Accès Internet haut débit
+- Base de données client et données sensibles
+- Services de stockage cloud
 
-Réseaux internes
+---
 
-Accès Internet haut débit
+## ⚠️ Risk Assessment
 
-Base de données client et données sensibles
+### 📝 Risk Description
 
-Services de stockage cloud
+TechWave Solutions gère mal les **droits d'accès aux données sensibles** et manque de procédures de sécurité formalisées, ce qui expose l'entreprise à :
+- Des violations de données
+- Une non-conformité aux normes internationales (ex. **RGPD**)
 
-Risk Assessment
+### ✅ Control Best Practices
 
-Risk Description
-TechWave Solutions présente une gestion insuffisante des droits d'accès aux données sensibles et un manque de formalisation des procédures de sécurité, exposant l'entreprise à des risques élevés de violations de données et de non-conformité avec les normes internationales telles que le RGPD.
+Selon la fonction **"Identifier"** du **NIST CSF** :
+- Identification exhaustive des actifs
+- Classification par **sensibilité**
+- Évaluation claire de l'**impact potentiel**
 
-Control Best Practices
-La fonction « Identifier » du NIST CSF requiert une identification exhaustive des actifs, leur classification selon leur sensibilité et une évaluation claire des impacts potentiels liés à leur perte.
+### 📉 Risk Score
 
-Risk Score
-La note de risque attribuée est de 9 sur 10, indiquant une situation critique nécessitant une action urgente.
+> **9 / 10** — Situation critique nécessitant une action **urgente**
 
-Additional Comments
-L'impact potentiel d'une perte d'actif est élevé, particulièrement pour les données client sensibles. Le risque de sanctions financières liées à la non-conformité réglementaire (ex. RGPD, ISO 27001) est également élevé.
+### 💬 Additional Comments
 
-Controls Assessment Checklist
+- Perte de données client = **impact élevé**
+- Risque accru de **sanctions financières** (RGPD, ISO 27001)
 
-Yes / No / ?
+---
 
-Control
+## 📋 Controls Assessment Checklist
 
-Explanation
+| Control              | Status | Explanation                                                  |
+|----------------------|--------|--------------------------------------------------------------|
+| Least Privilege      | ❌     | Trop d'employés ont un accès aux données sensibles          |
+| Disaster Recovery Plan | ❌   | Aucun plan documenté en cas de catastrophe informatique     |
+| Firewall             | ✅     | Configuré et supervisé par l'équipe IT                      |
+| Password Policies    | ❓     | Politiques existantes, mais exigences insuffisantes         |
+| Antivirus            | ✅     | Solution antivirus active et à jour                         |
+| Backups              | ❌     | Pas de stratégie claire de sauvegarde régulière            |
+| Encryption           | ❌     | Données sensibles non systématiquement chiffrées           |
+| IDS                  | ❌     | Absence de systèmes de détection d’intrusion efficace      |
+| Physical Security    | ✅     | Accès sécurisé aux locaux avec badge                        |
+| CCTV                 | ✅     | Surveillance vidéo fonctionnelle sur tous les sites        |
+| Fire Detection       | ✅     | Détection incendie installée (plan d’évacuation à clarifier) |
 
-No
+---
 
-Least Privilege
+## ✅ Compliance Checklist
 
-Trop d'employés ont un accès aux données sensibles.
+### 📜 GDPR
 
-No
+| Best Practice                          | Status | Explanation                                |
+|----------------------------------------|--------|--------------------------------------------|
+| EU customer data is securely managed   | ❌     | Non-respect complet des exigences RGPD     |
+| Privacy policies are clearly communicated | ✅  | Politiques disponibles sur le site web     |
 
-Disaster Recovery Plan
-
-Aucun plan documenté en cas de catastrophe informatique.
-
-Yes
-
-Firewall
-
-Configuré et supervisé par l'équipe IT.
-
-?
-
-Password Policies
-
-Politiques existantes, mais exigences insuffisantes.
-
-Yes
-
-Antivirus
-
-Solution antivirus active et à jour.
-
-No
-
-Backups
-
-Pas de stratégie claire de sauvegarde régulière.
-
-No
-
-Encryption
-
-Données sensibles non systématiquement chiffrées.
-
-No
-
-IDS
-
-Absence de systèmes de détection d’intrusion efficace.
-
-Yes
-
-Physical Security
-
-Accès sécurisé aux locaux avec badge.
-
-Yes
-
-CCTV
-
-Surveillance vidéo fonctionnelle sur tous les sites.
-
-Yes
-
-Fire Detection
-
-Détection incendie installée mais plan d'évacuation à clarifier.
-
-Compliance Checklist
-
-GDPR
-
-Yes / No / ?
-
-Best Practice
-
-Explanation
-
-No
-
-EU customer data is securely managed
-
-Non-respect complet des exigences RGPD.
-
-Yes
-
-Privacy policies are clearly communicated
-
-Politiques disponibles sur le site web.
-
-ISO 27001
-
-Yes / No / ?
-
-Best Practice
-
-Explanation
-
-No
-
-Information security policy documented
-
-Absence de documentation formelle et complète.
-
-?
-
-Regular risk assessments conducted
-
-Évaluations réalisées de manière informelle.
-
-No
-
-Asset inventory regularly updated
-
-Inventaire non mis à jour régulièrement.
-
-Recommendations
-
-Pour renforcer la posture de sécurité et assurer une conformité complète, TechWave Solutions doit impérativement :
-
-Mettre en place le principe du moindre privilège
-
-Établir un plan de reprise après sinistre détaillé et testé régulièrement
-
-Renforcer et documenter clairement les politiques de mot de passe et de gestion d'accès
-
-Implémenter un chiffrement systématique des données sensibles
-
-Intégrer des systèmes efficaces de détection d'intrusion
-
-Formaliser une politique de sécurité conforme aux normes RGPD et ISO 27001
-
-Maintenir à jour régulièrement l’inventaire des actifs pour mieux gérer les risques liés à la sécurité.
+### 🛡 ISO 27001
+
+| Best Practice                        | Status | Explanation                                      |
+|--------------------------------------|--------|--------------------------------------------------|
+| Information security policy documented | ❌   | Absence de documentation formelle               |
+| Regular risk assessments conducted    | ❓     | Évaluations réalisées de manière informelle     |
+| Asset inventory regularly updated     | ❌     | Inventaire non mis à jour régulièrement         |
+
+---
+
+## 🛠 Recommendations
+
+Pour renforcer sa posture de sécurité et assurer la conformité, TechWave Solutions doit :
+
+- ✅ Appliquer le **principe du moindre privilège**
+- ✅ Mettre en place un **plan de reprise après sinistre** testé régulièrement
+- ✅ Renforcer et documenter les **politiques de mot de passe et d'accès**
+- ✅ Implémenter un **chiffrement systématique** des données sensibles
+- ✅ Intégrer des **systèmes efficaces de détection d'intrusion**
+- ✅ Formaliser une **politique de sécurité conforme** (RGPD, ISO 27001)
+- ✅ Mettre à jour régulièrement l’**inventaire des actifs**
 
