@@ -1,6 +1,6 @@
-# 📄 Case Study — TechWave Solutions
+# Le CASE — TechWave Solutions
 
-## 🏢 Fictional Company Overview
+##  Fictional Company Overview
 
 **TechWave Solutions** est une entreprise canadienne de taille moyenne spécialisée dans les solutions **cloud** et **SaaS** pour les **PME**. Elle dispose de deux sites :
 - Siège social à **Montréal**
@@ -14,9 +14,9 @@ La responsable IT adopte le **Cadre de cybersécurité du NIST (NIST CSF)** pour
 
 ---
 
-## 🔍 Scenario
+##  Scenario
 
-### 📌 Scope
+###  Scope
 
 L'audit couvre :
 - L'ensemble du programme de sécurité
@@ -24,7 +24,7 @@ L'audit couvre :
 - Les **processus internes**
 - Les **politiques de conformité**
 
-### 🎯 Goals
+###  Goals
 
 - Évaluer les actifs existants
 - Compléter une **checklist de conformité**
@@ -32,7 +32,7 @@ L'audit couvre :
 
 ---
 
-## 💻 Current Assets
+##  Current Assets
 
 - Infrastructure cloud propriétaire
 - Équipements physiques (serveurs, routeurs, switches)
@@ -45,33 +45,33 @@ L'audit couvre :
 
 ---
 
-## ⚠️ Risk Assessment
+## ⚠ Risk Assessment
 
-### 📝 Risk Description
+###  Risk Description
 
 TechWave Solutions gère mal les **droits d'accès aux données sensibles** et manque de procédures de sécurité formalisées, ce qui expose l'entreprise à :
 - Des violations de données
 - Une non-conformité aux normes internationales (ex. **RGPD**)
 
-### ✅ Control Best Practices
+###  Control Best Practices
 
 Selon la fonction **"Identifier"** du **NIST CSF** :
 - Identification exhaustive des actifs
 - Classification par **sensibilité**
 - Évaluation claire de l'**impact potentiel**
 
-### 📉 Risk Score
+###  Risk Score
 
 > **9 / 10** — Situation critique nécessitant une action **urgente**
 
-### 💬 Additional Comments
+###  Additional Comments
 
 - Perte de données client = **impact élevé**
 - Risque accru de **sanctions financières** (RGPD, ISO 27001)
 
 ---
 
-## 📋 Controls Assessment Checklist
+##  Controls Assessment Checklist
 
 | Control              | Status | Explanation                                                  |
 |----------------------|--------|--------------------------------------------------------------|
@@ -89,16 +89,16 @@ Selon la fonction **"Identifier"** du **NIST CSF** :
 
 ---
 
-## ✅ Compliance Checklist
+##  Compliance Checklist
 
-### 📜 GDPR
+###  GDPR
 
 | Best Practice                          | Status | Explanation                                |
 |----------------------------------------|--------|--------------------------------------------|
 | EU customer data is securely managed   | ❌     | Non-respect complet des exigences RGPD     |
 | Privacy policies are clearly communicated | ✅  | Politiques disponibles sur le site web     |
 
-### 🛡 ISO 27001
+###  ISO 27001
 
 | Best Practice                        | Status | Explanation                                      |
 |--------------------------------------|--------|--------------------------------------------------|
@@ -108,7 +108,7 @@ Selon la fonction **"Identifier"** du **NIST CSF** :
 
 ---
 
-## 🛠 Recommendations
+##  Recommendations
 
 Pour renforcer sa posture de sécurité et assurer la conformité, TechWave Solutions doit :
 
